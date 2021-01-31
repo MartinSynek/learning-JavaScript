@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="script.js">
+    <script src="script.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+
+        </header>
+        <main>
+            <div>
+                <input type="number" id="cislo1">
+                <select name="operace" id="operator">
+                    <option value="1">+</option>
+                    <option value="2">-</option>
+                    <option value="3">×</option>
+                    <option value="4">÷</option>
+                </select>
+                <input type="number" id="cislo2">
+                <button onclick="vypocet()">=</button>
+                <input readonly type="text" id="vysledek">
+            </div>
+            <div>
+                <input type="text" id="text">
+                <input type="number" id="pocet" onclick="generator()">
+                <input readonly type="text" id="vysledek2">
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
